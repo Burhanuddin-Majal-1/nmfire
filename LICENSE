@@ -1,0 +1,85 @@
+PROJECT RESTRICTED-USE LICENSE
+Version 1.2
+Effective date: October 22, 2026
+
+Project Owner: Burhanuddin Majal
+Co-Owner / Project Partner: M/S Fakhri Brothers
+Copyright © 2026 Burhanuddin Majal. All rights reserved.
+
+NOTICE
+This repository is provided for review and use only under the terms stated in this license. Public visibility on GitHub does not, by itself, grant permission to copy, download, fork, modify, republish, commercially exploit, or deploy this project. Access to the repository is not a transfer of ownership or intellectual-property rights.
+
+1. PURPOSE AND SCOPE
+This license applies to the project materials made available in this repository, including source code, website structure, page layouts, stylesheets, scripts, original graphics, documentation, and other materials owned by the project copyright holder (collectively, the “Project Materials”).
+
+The license applies to complete or partial copies and to adaptations or derivative versions of the Project Materials. It does not override separate licenses or rights belonging to third-party owners.
+
+2. RESTRICTIONS ON COPYING AND DISTRIBUTION
+Except where expressly permitted under Section 5 or authorized in advance in writing by the copyright holder, you may not:
+- Download, copy, fork, clone, mirror, or otherwise reproduce the Project Materials.
+- Modify, adapt, translate, or create derivative works from the Project Materials.
+- Publish, redistribute, sell, sublicense, or make the Project Materials available to others.
+- Deploy or host a website, application, template, or service that reproduces or incorporates protected Project Materials.
+- Remove, obscure, or alter copyright, attribution, or licensing notices.
+- Represent the Project Materials or a derivative version as independently created by you or by another party.
+
+Using only general ideas, methods, or functionality that are not protected by applicable intellectual-property law is not necessarily restricted by this license. Third-party materials remain subject to their respective rights and license terms.
+
+3. COMMERCIAL USE
+Commercial use is prohibited unless the user is specifically authorized under Section 5 or has obtained prior written permission from the copyright holder. Commercial use includes, without limitation, selling or licensing the Project Materials, incorporating them into a paid product or service, using them to deliver paid services, or using them in a business activity intended to generate revenue.
+
+Payment, attribution, or a link back to this repository does not independently create permission to use the Project Materials.
+
+4. NO AUTOMATIC RIGHTS FROM PUBLIC ACCESS
+GitHub hosting, repository visibility, a public link, or the technical ability to access or copy files does not grant any additional license or permission. GitHub may provide platform features such as forking or downloading; this custom license does not technically disable those features. Users remain responsible for complying with these terms and applicable platform rules.
+
+5. EXPRESSLY AUTHORIZED USERS
+The following named individuals or entities are expressly authorized to use, copy, modify, fork, download, and deploy the Project Materials, including for commercial purposes, subject to this license and applicable third-party rights:
+- Fakhri Brothers
+- Burhanuddin Majal
+- Mustafa Majal
+- CNP Nmfire
+
+This authorization applies only to the named individuals or entities themselves. It does not automatically extend to their customers, affiliates, contractors, employees acting outside their authorized duties, partners, or other third parties. It does not transfer ownership or permit sublicensing or redistribution to unauthorized parties. Any broader authorization must be granted in writing by the copyright holder.
+
+The same authorized names are listed in allowed-users.txt. If that file conflicts with this license, this license controls.
+
+6. PERMISSION REQUESTS
+Anyone seeking permission beyond the rights expressly granted here must obtain written authorization from the copyright holder before copying, modifying, distributing, deploying, or commercially using the Project Materials. Permission requests should identify the intended use, materials involved, distribution method, and whether the use is commercial.
+
+7. ENFORCEMENT AND REMEDIES
+Where an unauthorized use is identified, the copyright holder may request attribution correction, removal, cessation of use, or other appropriate remedies. The copyright holder may submit platform complaints, request takedowns, or pursue civil or other legal remedies where available under applicable law.
+
+No statement in this license guarantees that a particular use will result in prosecution or any specific legal outcome. Criminal prosecution, where applicable, is determined by the relevant authorities under applicable law. All remedies are subject to applicable law and the facts of the matter.
+
+8. OWNERSHIP AND RESERVATION OF RIGHTS
+The project owner is Burhanuddin Majal. M/S Fakhri Brothers is identified as Co-Owner / Project Partner for this project. This identification records the project's stated roles but does not, by itself, determine the legal allocation of copyright ownership or transfer any intellectual-property rights; any shared ownership or transfer should be documented separately in a written agreement signed by the relevant parties.
+
+No ownership interest is transferred to users by this license. All rights not expressly granted are reserved by the copyright holder. This document is a custom restricted-use license and is not an OSI-approved open-source license.
+
+9. THIRD-PARTY MATERIALS
+The Project Materials may refer to, link to, or include third-party code, fonts, images, trademarks, libraries, or other assets. Those materials may be owned by other parties and may be governed by separate terms. This license does not grant rights that the project copyright holder does not own or have authority to grant. Users are responsible for reviewing and complying with applicable third-party terms.
+
+10. DISCLAIMER OF WARRANTY AND LIMITATION
+To the maximum extent permitted by applicable law, the Project Materials are provided “AS IS” and “AS AVAILABLE,” without warranties or conditions of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement. To the maximum extent permitted by law, the copyright holder is not liable for claims or damages arising from use of the Project Materials.
+
+11. SEVERABILITY AND CHANGES
+If any provision of this license is held unenforceable, the remaining provisions will continue to apply to the extent permitted by law. The copyright holder may publish a revised license for future versions of the Project Materials. A revision does not automatically change the terms that applied to an earlier grant of written permission unless the relevant parties agree otherwise.
+
+12. CONTACT, COMPLAINTS, AND LEGAL REVIEW
+For permissions or licensing questions, contact the copyright holder through a contact method published in the repository or an official project website. To report suspected unauthorized copying, redistribution, or website use of the Project Materials, contact either of the following licensing-complaint addresses:
+- complains@majal.dpdns.org
+- pakistan@nmfirepump.com
+
+Both addresses may be used for licensing complaints and related correspondence. This notice does not change the project's website contact form configuration, which remains set to send inquiries only to pakistan@nmfirepump.com.
+
+This license is a project-use notice, not legal advice. Its interpretation and enforceability depend on the applicable law and circumstances.
+
+13. ABUSE, SPAM, AND NETWORK BLOCKING POLICY
+Users must not use the website, AI assistant, or its forms to submit spam, repeated irrelevant content, abusive messages, malicious payloads, threats, or other inappropriate information. Submissions that violate this policy may be rejected or restricted. Where technically available and legally permitted, the site operator may block IP addresses, restrict VPN/proxy access, and use relevant device- or network-related signals to detect repeated abuse or attempts to bypass restrictions. The operator may also report serious abuse through appropriate channels where warranted.
+
+These measures are subject to applicable law and the site's actual technical configuration. This license section describes permitted policy responses; it does not represent that IP blocking, VPN/proxy blocking, or device/network detection is already implemented or active. Such controls must be separately configured and tested. No detection method guarantees that a particular person or device can always be identified. Do not attempt to evade an access restriction.
+
+## Beta Version Warning and Limitation of Responsibility
+
+The Beta version may contain errors, bugs, incomplete features, or compatibility issues. We recommend using the Stable version for normal use. If an error or bug occurs on your device or in your browser while using the Beta version, you use it at your own risk. To the maximum extent permitted by applicable law, the project owner is not responsible for issues, damage, or loss arising from use of the Beta version. This notice does not exclude any responsibility that cannot legally be excluded.
