@@ -1,0 +1,110 @@
+name: Main Branch File Manager
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: "What should happen?"
+        type: choice
+        required: true
+        options:
+          - upload_or_edit
+          - delete
+      file_path:
+        description: "Repository file path (example: assets/logo.png)"
+        type: string
+        required: true
+      content_base64:
+        description: "New file contents encoded as Base64 (required for upload/edit; leave blank for delete)"
+        type: string
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-branch-file-manager
+  cancel-in-progress: false
+
+jobs:
+  manage-file:
+    name: Manage a file on main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload, edit, or delete file
+        uses: actions/github-script@v7
+        env:
+          OPERATION: ${{ inputs.operation }}
+          FILE_PATH: ${{ inputs.file_path }}
+          CONTENT_BASE64: ${{ inputs.content_base64 }}
+        with:
+          script: |
+            const operation = process.env.OPERATION;
+            const path = process.env.FILE_PATH;
+            const encoded = process.env.CONTENT_BASE64 || "";
+
+            if (!path || path.startsWith("/") || path.split("/").some(part => !part || part === "." || part === "..") || path.includes("\\\\")) {
+              core.setFailed("Invalid file path. Use a repository-relative path without . or .. segments.");
+              return;
+            }
+
+            if (!["upload_or_edit", "delete"].includes(operation)) {
+              core.setFailed("Unsupported operation.");
+              return;
+            }
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const branch = "main";
+            const api = github.rest.repos;
+
+            let existing;
+            try {
+              existing = await api.getContent({ owner, repo, path, ref: branch });
+              if (Array.isArray(existing.data)) {
+                core.setFailed("The path points to a directory, not a file.");
+                return;
+              }
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              existing = null;
+            }
+
+            if (operation === "delete") {
+              if (!existing) {
+                core.setFailed("That file does not exist on main.");
+                return;
+              }
+              await api.deleteFile({
+                owner, repo, path, branch,
+                sha: existing.data.sha,
+                message: `Delete ${path} via File Manager`,
+                author: { name: "Majal Technologies", email: "41898282+github-actions[bot]@users.noreply.github.com" },
+                committer: { name: "Majal Technologies", email: "41898282+github-actions[bot]@users.noreply.github.com" }
+              });
+              core.info(`Deleted ${path} from main.`);
+              return;
+            }
+
+            if (!encoded || !/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/.test(encoded)) {
+              core.setFailed("Provide valid Base64 file content for upload/edit.");
+              return;
+            }
+
+            const bytes = Buffer.from(encoded, "base64");
+            if (bytes.length === 0) {
+              core.setFailed("The decoded file is empty.");
+              return;
+            }
+
+            const params = {
+              owner, repo, path, branch,
+              content: bytes.toString("base64"),
+              message: `${existing ? "Edit" : "Upload"} ${path} via File Manager`,
+              author: { name: "Majal Technologies", email: "41898282+github-actions[bot]@users.noreply.github.com" },
+              committer: { name: "Majal Technologies", email: "41898282+github-actions[bot]@users.noreply.github.com" }
+            };
+            if (existing) params.sha = existing.data.sha;
+
+            await api.createOrUpdateFileContents(params);
+            core.info(`${existing ? "Updated" : "Uploaded"} ${path} on main.`);
