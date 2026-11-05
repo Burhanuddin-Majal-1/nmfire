@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.125
+- **Serial No.:** RN-08337584
+- **Commit No.:** [`de634ef9ee3252ecc086303750ddde36f65f5667`](https://github.com/Jackpk52/nmfire/commit/de634ef9ee3252ecc086303750ddde36f65f5667)
+- **Date:** 2026-11-05
+- **Change:** Add workflow to update release notes on push 
+
 ### v1.0.124
 - **Serial No.:** RN-53587800
 - **Commit No.:** [`83d46fcf28ee49907ce0b9ebf4428611f3ea5fa5`](https://github.com/burhanuddin-majal/nm-fire-pumps-rebuild/commit/83d46fcf28ee49907ce0b9ebf4428611f3ea5fa5)
