@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.126
+- **Serial No.:** RN-39909808
+- **Commit No.:** [`c73c82b04ebe9fbdfd0bc2ba230a49de577a50a7`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c73c82b04ebe9fbdfd0bc2ba230a49de577a50a7)
+- **Date:** 2026-11-09
+- **Change:** Remove VPN connection tip popup 
+
 ### v1.0.125
 - **Serial No.:** RN-08337584
 - **Commit No.:** [`de634ef9ee3252ecc086303750ddde36f65f5667`](https://github.com/Jackpk52/nmfire/commit/de634ef9ee3252ecc086303750ddde36f65f5667)
