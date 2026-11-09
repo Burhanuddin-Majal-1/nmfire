@@ -1,9 +1,8 @@
 title: NM Fire Pumps Pakistan
-description: Authorized supplier of UL listed and FM approved fire pumps in Pakistan. Split-case, end suction, and diesel engine fire pump packages compliant with NFPA 20.
-url: "https://www.nmfirepumpspakistan.com"
+description: Fire pump systems in Pakistan, including split-case, end-suction and vertical turbine pumps, diesel engine drivers and packaged fire-protection systems. Confirm UL/FM listings and NFPA 20 suitability for the exact models and complete project assembly.
+url: "https://nmfirepumpspakistan.com"
 lang: en-PK
 
-# These two native GitHub plugins automate your SEO
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
