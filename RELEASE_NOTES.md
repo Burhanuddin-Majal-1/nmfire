@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.130
+- **Serial No.:** RN-08169554
+- **Commit No.:** [`58932f22fd2d7520791df1c2c929f04d05162dea`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/58932f22fd2d7520791df1c2c929f04d05162dea)
+- **Date:** 2026-11-09
+- **Change:** Expand sitemap with public product and content pages 
+
 ### v1.0.129
 - **Serial No.:** RN-90255806
 - **Commit No.:** [`249c6932aeaf7698d827c246da223d8af5dbd7bc`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/249c6932aeaf7698d827c246da223d8af5dbd7bc)
