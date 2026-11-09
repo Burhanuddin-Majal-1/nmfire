@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.139
+- **Serial No.:** RN-65175816
+- **Commit No.:** [`751e4e9d61b8dd4913addec5d8f616359cc830d9`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/751e4e9d61b8dd4913addec5d8f616359cc830d9)
+- **Date:** 2026-11-09
+- **Change:** Configure Jekyll SEO metadata for the canonical domain 
+
 ### v1.0.138
 - **Serial No.:** RN-35873218
 - **Commit No.:** [`fca306adabe03a0e4811b7fdfb40cb66873da4ae`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/fca306adabe03a0e4811b7fdfb40cb66873da4ae)
