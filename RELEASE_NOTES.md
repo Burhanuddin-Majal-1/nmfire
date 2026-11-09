@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.141
+- **Serial No.:** RN-05582450
+- **Commit No.:** [`3f864cad8e870539aaead9b63515885a2ec8795c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/3f864cad8e870539aaead9b63515885a2ec8795c)
+- **Date:** 2026-11-09
+- **Change:** Rename assets/NM FIRE AUTHORTIZATION LETTER.pdf to assets/authorization/authorization.pdf 
+
 ### v1.0.140
 - **Serial No.:** RN-39600702
 - **Commit No.:** [`2859a731b257d8880276a6ba27a166ab3157bcb2`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/2859a731b257d8880276a6ba27a166ab3157bcb2)
