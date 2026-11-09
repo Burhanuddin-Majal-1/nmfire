@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.143
+- **Serial No.:** RN-45322982
+- **Commit No.:** [`5d6be46b3d15b10699e2ae26c5b3117410b7e5cd`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/5d6be46b3d15b10699e2ae26c5b3117410b7e5cd)
+- **Date:** 2026-11-09
+- **Change:** Remove private authorization document link 
+
 ### v1.0.142
 - **Serial No.:** RN-20040415
 - **Commit No.:** [`274cc26234e0ea8041c43d71092e5999bd7fa160`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/274cc26234e0ea8041c43d71092e5999bd7fa160)
