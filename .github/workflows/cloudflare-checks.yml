@@ -1,0 +1,150 @@
+name: Record Cloudflare Checks
+
+on:
+  check_run:
+    types: [completed]
+  status: {}
+  deployment_status:
+    types: [created]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cloudflare-check-report
+  cancel-in-progress: false
+
+jobs:
+  record-cloudflare-success:
+    if: >-
+      (github.event_name == 'check_run' &&
+       github.event.check_run.conclusion == 'success' &&
+       (contains(github.event.check_run.name, 'Cloudflare') ||
+        contains(github.event.check_run.name, 'cloudflare') ||
+        contains(github.event.check_run.app.slug, 'cloudflare'))) ||
+      (github.event_name == 'status' &&
+       github.event.state == 'success' &&
+       (contains(github.event.context, 'Cloudflare') ||
+        contains(github.event.context, 'cloudflare'))) ||
+      (github.event_name == 'deployment_status' &&
+       github.event.deployment_status.state == 'success' &&
+       (contains(github.event.deployment_status.environment_url, 'pages.dev') ||
+        contains(github.event.deployment_status.environment_url, 'cloudflare') ||
+        contains(github.event.deployment_status.target_url, 'pages.dev') ||
+        contains(github.event.deployment_status.target_url, 'cloudflare')))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check event and prevent report-update loops
+        id: event
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_PATH: ${{ github.event_path }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+
+          event = json.loads(Path(os.environ["EVENT_PATH"]).read_text())
+          kind = os.environ["EVENT_NAME"]
+          sha = ""
+          label = ""
+          url = ""
+
+          if kind == "check_run":
+              check = event.get("check_run", {})
+              sha = check.get("head_sha", "")
+              label = check.get("name", "Cloudflare check")
+              url = check.get("details_url", "")
+          elif kind == "status":
+              sha = event.get("sha", "")
+              label = event.get("context", "Cloudflare status")
+              url = event.get("target_url", "")
+          elif kind == "deployment_status":
+              deployment = event.get("deployment", {})
+              status = event.get("deployment_status", {})
+              sha = deployment.get("sha", "")
+              label = deployment.get("environment", "Cloudflare deployment")
+              url = status.get("environment_url") or status.get("target_url") or ""
+
+          if not sha:
+              raise SystemExit("No commit SHA was supplied by the event.")
+
+          message = subprocess.check_output(
+              ["gh", "api", f"repos/{os.environ['REPOSITORY']}/commits/{sha}",
+               "--jq", ".commit.message"],
+              text=True
+          ).strip()
+
+          if "[skip cloudflare checks]" in message.lower():
+              print("Ignoring the report's own commit to prevent a deployment loop.")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+                  out.write("skip=true\n")
+              raise SystemExit(0)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write("skip=false\n")
+              out.write(f"sha={sha}\n")
+              out.write(f"label={label.replace(chr(10), ' ')}\n")
+              out.write(f"url={url}\n")
+          PY
+      - name: Check out repository
+        if: steps.event.outputs.skip != 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Update Cloudfare_Checks.md
+        if: steps.event.outputs.skip != 'true'
+        env:
+          CHECK_SHA: ${{ steps.event.outputs.sha }}
+          CHECK_LABEL: ${{ steps.event.outputs.label }}
+          CHECK_URL: ${{ steps.event.outputs.url }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          sha = os.environ["CHECK_SHA"]
+          label = os.environ["CHECK_LABEL"]
+          url = os.environ.get("CHECK_URL", "").strip()
+          event = os.environ["EVENT_NAME"]
+          checked_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+          lines = [
+              "# Cloudflare Checks",
+              "",
+              "This file is automatically updated by the GitHub Actions workflow when a successful Cloudflare Pages check or deployment event is received.",
+              "",
+              "## Latest successful check",
+              "",
+              f"- **Result:** SUCCESS",
+              f"- **Check:** {label}",
+              f"- **Event:** {event}",
+              f"- **Checked at:** {checked_at}",
+              f"- **Commit:** [`{sha[:7]}`](https://github.com/{os.environ['GITHUB_REPOSITORY']}/commit/{sha})",
+          ]
+          if url:
+              lines.append(f"- **Cloudflare details:** {url}")
+          lines += [
+              "",
+              "> This report records a successful GitHub event associated with Cloudflare. It does not independently test DNS, HTTPS, page content, or every website route.",
+              ""
+          ]
+          Path("Cloudfare_Checks.md").write_text("\n".join(lines), encoding="utf-8")
+          PY
+      - name: Commit report
+        if: steps.event.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Cloudfare_Checks.md
+          if git diff --cached --quiet; then
+            echo "The report is already up to date."
+          else
+            git commit -m "[skip cloudflare checks] Update Cloudfare_Checks.md"
+            git push
+          fi
