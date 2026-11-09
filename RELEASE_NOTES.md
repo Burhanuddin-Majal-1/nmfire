@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.135
+- **Serial No.:** RN-72579849
+- **Commit No.:** [`a9c2ea1e75a47598caf69283aba1624fb36d829e`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/a9c2ea1e75a47598caf69283aba1624fb36d829e)
+- **Date:** 2026-11-09
+- **Change:** Expand fire pump product SEO keywords 
+
 ### v1.0.134
 - **Serial No.:** RN-93807851
 - **Commit No.:** [`c1b621d1b24e6191935e18a3b3d4db1a39cede09`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c1b621d1b24e6191935e18a3b3d4db1a39cede09)
