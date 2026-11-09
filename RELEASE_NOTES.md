@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.137
+- **Serial No.:** RN-78913264
+- **Commit No.:** [`7e755ab0329cc78de70917c7f7a5585a6e391d24`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/7e755ab0329cc78de70917c7f7a5585a6e391d24)
+- **Date:** 2026-11-09
+- **Change:** Add site configuration for NM Fire Pumps Pakistan 
+
 ### v1.0.136
 - **Serial No.:** RN-61652592
 - **Commit No.:** [`525145921c26740ad387c2c9a56ef5aa238a306e`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/525145921c26740ad387c2c9a56ef5aa238a306e)
