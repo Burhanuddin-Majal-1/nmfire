@@ -1,54 +1,74 @@
+---
+permalink: /404.html
+---
 <!doctype html>
-<html lang="en">
+<html lang="en-PK">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,follow">
 <meta name="theme-color" content="#10232d">
-<title>404 — Page Not Found | NM Fire</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="assets/site.css">
+<title>404 — Page Not Found | NM Fire Pakistan</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/assets/site.css">
 <style>
-.error-page{min-height:calc(100vh - 160px);display:grid;place-items:center;padding:72px 0;background:linear-gradient(135deg,#f3f6f7 0%,#fff 60%,#f8e9e6 100%)}
-.error-card{width:min(760px,100%);margin:auto;padding:clamp(28px,6vw,64px);background:#fff;border:1px solid var(--line);box-shadow:0 24px 70px #10232d0d}
-.error-code{font:800 clamp(72px,16vw,140px)/.9 Manrope,sans-serif;letter-spacing:-.08em;color:var(--red);margin:0 0 24px}
-.error-card h1{font:800 clamp(28px,5vw,46px)/1.1 Manrope,sans-serif;letter-spacing:-.04em;margin:0 0 16px;color:var(--navy)}
-.error-card p{max-width:520px;color:var(--muted);margin:0 0 26px}
-.error-actions{display:flex;gap:12px;flex-wrap:wrap}
-.error-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;font-size:13px}
-.error-links a{color:var(--muted);text-decoration:underline;text-underline-offset:4px}
+.error-page{position:relative;isolation:isolate;min-height:calc(100vh - 190px);display:grid;place-items:center;overflow:hidden;padding:clamp(48px,8vw,96px) 0;background:linear-gradient(135deg,#f3f6f7 0%,#fff 58%,#f9eae7 100%)}
+.error-page:before,.error-page:after{content:"";position:absolute;z-index:-1;border:1px solid rgba(16,35,45,.07);border-radius:50%;pointer-events:none}
+.error-page:before{width:540px;height:540px;right:-210px;top:-250px}
+.error-page:after{width:380px;height:380px;left:-190px;bottom:-210px}
+.error-wrap{width:min(100%,850px);margin:auto}
+.error-card{position:relative;padding:clamp(28px,6vw,68px);background:rgba(255,255,255,.94);border:1px solid #e3e9eb;border-radius:8px;box-shadow:0 28px 80px rgba(16,35,45,.09);overflow:hidden}
+.error-card:after{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--red)}
+.error-eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 20px;color:var(--red);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.error-eyebrow:before{content:"";width:24px;height:2px;background:currentColor}
+.error-code{margin:0 0 12px;color:var(--navy);font:800 clamp(92px,19vw,172px)/.78 Manrope,sans-serif;letter-spacing:-.095em}
+.error-code span{color:var(--red)}
+.error-card h1{max-width:620px;margin:28px 0 12px;color:var(--navy);font:800 clamp(30px,5vw,48px)/1.08 Manrope,sans-serif;letter-spacing:-.045em}
+.error-description{max-width:570px;margin:0;color:var(--muted);font-size:16px;line-height:1.8}
+.error-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.error-actions .btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 20px}
+.error-divider{height:1px;margin:34px 0 20px;background:var(--line)}
+.error-help{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.error-help strong{color:var(--navy);font-size:13px}
+.error-links{display:flex;gap:20px;flex-wrap:wrap}
+.error-links a{color:var(--muted);font-size:13px;text-decoration:underline;text-decoration-color:#cbd4d8;text-underline-offset:4px}
 .error-links a:hover{color:var(--red)}
-@media(max-width:600px){.error-page{min-height:70vh}.error-actions .btn{width:100%}}
+@media(max-width:600px){.error-page{min-height:72vh;padding:34px 0}.error-card{padding:30px 24px}.error-card h1{margin-top:24px}.error-description{font-size:14px}.error-actions{display:grid;grid-template-columns:1fr}.error-actions .btn{width:100%}.error-divider{margin:26px 0 18px}.error-help{align-items:flex-start;flex-direction:column;gap:12px}.error-links{gap:16px}}
 </style>
-<script defer src="assets/theme.js"></script>
+<script defer src="/assets/theme.js"></script>
 </head>
 <body>
 <header class="header">
 <div class="wrap navrow">
-<a class="brand" href="index.html" aria-label="NM Fire home"><img class="brand-logo" src="assets/272.jpg" alt="NMFIRE Pakistan"></a>
-<a class="nav-cta btn" href="contact.html">Contact Us ↗</a>
+<a class="brand" href="/" aria-label="NM Fire Pakistan home"><img class="brand-logo" src="/assets/272.jpg" alt="NM Fire Pakistan"></a>
+<a class="nav-cta btn" href="/contact.html">Contact Us ↗</a>
 </div>
 </header>
 <main class="error-page">
-<section class="wrap">
-<div class="error-card">
-<p class="eyebrow">ERROR 404 · PAGE NOT FOUND</p>
-<div class="error-code" aria-hidden="true">404</div>
-<h1>This page isn't here.</h1>
-<p>The link may be outdated, the address may be incorrect, or this page may not have been added to the NM Fire website yet.</p>
+<div class="wrap error-wrap">
+<section class="error-card" aria-labelledby="error-title">
+<p class="error-eyebrow">NM FIRE PAKISTAN · ERROR 404</p>
+<div class="error-code" aria-hidden="true">4<span>0</span>4</div>
+<h1 id="error-title">This page couldn't be found.</h1>
+<p class="error-description">The address may be incorrect, or the page may have moved. Let's get you back to the fire-pump information you're looking for.</p>
 <div class="error-actions">
-<a class="btn btn-red" href="index.html">Back to homepage <span>→</span></a>
-<a class="btn btn-dark" href="products.html">Explore products <span>↗</span></a>
+<a class="btn btn-red" href="/">Back to homepage <span aria-hidden="true">→</span></a>
+<a class="btn btn-dark" href="/products.html">Explore products <span aria-hidden="true">↗</span></a>
 </div>
+<div class="error-divider"></div>
+<div class="error-help">
+<strong>Need a hand finding something?</strong>
 <nav class="error-links" aria-label="Helpful links">
-<a href="sitemap.html">View sitemap</a>
-<a href="contact.html">Contact NM Fire</a>
+<a href="/about.html">About NM Fire</a>
+<a href="/resources.html">Resources</a>
+<a href="/contact.html">Contact us</a>
 </nav>
 </div>
 </section>
+</div>
 </main>
 <footer class="footer">
-<div class="wrap footer-bottom"><span>© <span id="year"></span> CNP NM Fire-fighting System Co., Ltd.</span><a href="sitemap.html">Sitemap</a><a href="terms-of-service.html">Terms of Service</a><a href="privacy-policy.html">Privacy Policy</a></div>
+<div class="wrap footer-bottom"><span>© <span id="year"></span> CNP NM Fire-fighting System Co., Ltd.</span><a href="/terms-of-service.html">Terms of Service</a><a href="/privacy-policy.html">Privacy Policy</a></div>
 </footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
