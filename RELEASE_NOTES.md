@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.132
+- **Serial No.:** RN-29287370
+- **Commit No.:** [`b2e8323e3bf73c9c5b340d1c06acc6a642b6408b`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b2e8323e3bf73c9c5b340d1c06acc6a642b6408b)
+- **Date:** 2026-11-09
+- **Change:** Align social metadata with SEO page keywords 
+
 ### v1.0.131
 - **Serial No.:** RN-40474466
 - **Commit No.:** [`fe543b41becc60f61fac829198c08ab1c6dcdd58`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/fe543b41becc60f61fac829198c08ab1c6dcdd58)
