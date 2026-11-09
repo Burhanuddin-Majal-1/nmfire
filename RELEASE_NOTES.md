@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.144
+- **Serial No.:** RN-49277967
+- **Commit No.:** [`76474f0fbbdd9d55eb3ebb88978868f8ca350d05`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/76474f0fbbdd9d55eb3ebb88978868f8ca350d05)
+- **Date:** 2026-11-09
+- **Change:** Fix 404 asset paths and refresh responsive error page 
+
 ### v1.0.143
 - **Serial No.:** RN-45322982
 - **Commit No.:** [`5d6be46b3d15b10699e2ae26c5b3117410b7e5cd`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/5d6be46b3d15b10699e2ae26c5b3117410b7e5cd)
