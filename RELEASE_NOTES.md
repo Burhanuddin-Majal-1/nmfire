@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.133
+- **Serial No.:** RN-16535846
+- **Commit No.:** [`31877391ed52e65522b3db12b7653d6b7e362e06`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/31877391ed52e65522b3db12b7653d6b7e362e06)
+- **Date:** 2026-11-09
+- **Change:** Improve product detail keyword targeting for Pakistan 
+
 ### v1.0.132
 - **Serial No.:** RN-29287370
 - **Commit No.:** [`b2e8323e3bf73c9c5b340d1c06acc6a642b6408b`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b2e8323e3bf73c9c5b340d1c06acc6a642b6408b)
