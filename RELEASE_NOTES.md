@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.129
+- **Serial No.:** RN-90255806
+- **Commit No.:** [`249c6932aeaf7698d827c246da223d8af5dbd7bc`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/249c6932aeaf7698d827c246da223d8af5dbd7bc)
+- **Date:** 2026-11-09
+- **Change:** Improve SEO metadata for projects.html 
+
 ### v1.0.128
 - **Serial No.:** RN-41837790
 - **Commit No.:** [`c65cfe6094be78b9d1e95f481a281a8e7fbf2678`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c65cfe6094be78b9d1e95f481a281a8e7fbf2678)
