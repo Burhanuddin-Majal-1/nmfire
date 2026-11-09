@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.128
+- **Serial No.:** RN-41837790
+- **Commit No.:** [`c65cfe6094be78b9d1e95f481a281a8e7fbf2678`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c65cfe6094be78b9d1e95f481a281a8e7fbf2678)
+- **Date:** 2026-11-09
+- **Change:** Add Cloudflare checks status report 
+
 ### v1.0.127
 - **Serial No.:** RN-20007678
 - **Commit No.:** [`893beeac0bda2689e4c78839e1e56f109cd553e5`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/893beeac0bda2689e4c78839e1e56f109cd553e5)
