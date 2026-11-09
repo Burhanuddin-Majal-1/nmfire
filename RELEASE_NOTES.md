@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.138
+- **Serial No.:** RN-35873218
+- **Commit No.:** [`fca306adabe03a0e4811b7fdfb40cb66873da4ae`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/fca306adabe03a0e4811b7fdfb40cb66873da4ae)
+- **Date:** 2026-11-09
+- **Change:** Use Jekyll SEO tag metadata on homepage 
+
 ### v1.0.137
 - **Serial No.:** RN-78913264
 - **Commit No.:** [`7e755ab0329cc78de70917c7f7a5585a6e391d24`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/7e755ab0329cc78de70917c7f7a5585a6e391d24)
