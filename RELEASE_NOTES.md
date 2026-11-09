@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.134
+- **Serial No.:** RN-93807851
+- **Commit No.:** [`c1b621d1b24e6191935e18a3b3d4db1a39cede09`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c1b621d1b24e6191935e18a3b3d4db1a39cede09)
+- **Date:** 2026-11-09
+- **Change:** Improve SEO keyword relevance for NM Fire 
+
 ### v1.0.133
 - **Serial No.:** RN-16535846
 - **Commit No.:** [`31877391ed52e65522b3db12b7653d6b7e362e06`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/31877391ed52e65522b3db12b7653d6b7e362e06)
