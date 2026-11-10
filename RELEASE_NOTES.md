@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.151
+- **Serial No.:** RN-72071138
+- **Commit No.:** [`11aad35df8223944d3ce9aa1dc4927d97de0647e`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/11aad35df8223944d3ce9aa1dc4927d97de0647e)
+- **Date:** 2026-11-10
+- **Change:** Remove former distributor entry from public access list 
+
 ### v1.0.150
 - **Serial No.:** RN-13198898
 - **Commit No.:** [`603241daa5c3235ab1bb8f853e081e187d45a6a5`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/603241daa5c3235ab1bb8f853e081e187d45a6a5)
