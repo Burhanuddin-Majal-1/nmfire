@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.146
+- **Serial No.:** RN-60504859
+- **Commit No.:** [`d289d6adbd90c02670d595d223088b9636693f39`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/d289d6adbd90c02670d595d223088b9636693f39)
+- **Date:** 2026-11-10
+- **Change:** Add NM Fire Pakistan website name structured data 
+
 ### v1.0.145
 - **Serial No.:** RN-61427258
 - **Commit No.:** [`a96c4cc77f96b901eb901305695f55d3df61ccab`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/a96c4cc77f96b901eb901305695f55d3df61ccab)
