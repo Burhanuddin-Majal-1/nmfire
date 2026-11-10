@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.150
+- **Serial No.:** RN-13198898
+- **Commit No.:** [`603241daa5c3235ab1bb8f853e081e187d45a6a5`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/603241daa5c3235ab1bb8f853e081e187d45a6a5)
+- **Date:** 2026-11-10
+- **Change:** Remove Fakhri Brothers and authorization details 
+
 ### v1.0.149
 - **Serial No.:** RN-40086474
 - **Commit No.:** [`b57803854798aa97ce7ec9f7b7f566ae9ef648a1`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b57803854798aa97ce7ec9f7b7f566ae9ef648a1)
