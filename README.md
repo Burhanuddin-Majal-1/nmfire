@@ -5,7 +5,7 @@ A responsive, static reference-style website rebuild for **CNP NM Fire-fighting 
 - **Preview website:** https://burhanuddin-majal.github.io/nm-fire-pumps-rebuild/
 - **Official NM Fire website:** https://www.nmfirepumps.com/
 - **Repository:** https://github.com/burhanuddin-majal/nm-fire-pumps-rebuild
-- [![Deploy website to GitHub Pages](https://github.com/burhanuddin-majal/nm-fire-pumps-rebuild/actions/workflows/pages-deploy.yml/badge.svg?event=deployment)](https://github.com/burhanuddin-majal/nm-fire-pumps-rebuild/actions/workflows/pages-deploy.yml)
+- [![Deploy website to GitHub Pages](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml/badge.svg?event=deployment)](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml)
 ## Preview Website Notice
 
 **This website is a preview rebuild and is not yet the officially published production website.** It may contain unfinished content, bugs, inaccurate information, or features that have not been fully tested. Until this preview is formally reviewed, approved, and published, we recommend using the official NM Fire website for current company information and enquiries. Once this rebuild has been officially published and verified, we recommend using the published website.
