@@ -14,13 +14,11 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 - **Serial No.:** RN-13198898
 - **Commit No.:** [`603241daa5c3235ab1bb8f853e081e187d45a6a5`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/603241daa5c3235ab1bb8f853e081e187d45a6a5)
 - **Date:** 2026-11-10
-- **Change:** Remove Fakhri Brothers and authorization details 
 
 ### v1.0.149
 - **Serial No.:** RN-40086474
 - **Commit No.:** [`b57803854798aa97ce7ec9f7b7f566ae9ef648a1`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b57803854798aa97ce7ec9f7b7f566ae9ef648a1)
 - **Date:** 2026-11-10
-- **Change:** Remove Fakhri Brothers references and authorization-letter details 
 
 ### v1.0.148
 - **Serial No.:** RN-83158300
@@ -56,25 +54,21 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 - **Serial No.:** RN-45322982
 - **Commit No.:** [`5d6be46b3d15b10699e2ae26c5b3117410b7e5cd`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/5d6be46b3d15b10699e2ae26c5b3117410b7e5cd)
 - **Date:** 2026-11-09
-- **Change:** Remove private authorization document link 
 
 ### v1.0.142
 - **Serial No.:** RN-20040415
 - **Commit No.:** [`274cc26234e0ea8041c43d71092e5999bd7fa160`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/274cc26234e0ea8041c43d71092e5999bd7fa160)
 - **Date:** 2026-11-09
-- **Change:** Delete assets/authorization directory 
 
 ### v1.0.141
 - **Serial No.:** RN-05582450
 - **Commit No.:** [`3f864cad8e870539aaead9b63515885a2ec8795c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/3f864cad8e870539aaead9b63515885a2ec8795c)
 - **Date:** 2026-11-09
-- **Change:** Rename assets/NM FIRE AUTHORTIZATION LETTER.pdf to assets/authorization/authorization.pdf 
 
 ### v1.0.140
 - **Serial No.:** RN-39600702
 - **Commit No.:** [`2859a731b257d8880276a6ba27a166ab3157bcb2`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/2859a731b257d8880276a6ba27a166ab3157bcb2)
 - **Date:** 2026-11-09
-- **Change:** Add Authorization Letter 
 
 ### v1.0.139
 - **Serial No.:** RN-65175816
