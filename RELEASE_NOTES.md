@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.153
+- **Serial No.:** RN-93090292
+- **Commit No.:** [`c6e4d32132d12a5563cf68c87391e85f56efcb78`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c6e4d32132d12a5563cf68c87391e85f56efcb78)
+- **Date:** 2026-11-11
+- **Change:** Fix NM Fire Pakistan favicon reference 
+
 ### v1.0.152
 - **Serial No.:** RN-49911324
 - **Commit No.:** [`0ac4707b6dbbf3892c50e9c83ef1ee44db4bc48c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/0ac4707b6dbbf3892c50e9c83ef1ee44db4bc48c)
