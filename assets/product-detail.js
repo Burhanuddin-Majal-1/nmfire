@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{const key=new URLSearchParams(
 const pageDescription=(p.title+' for fire protection systems in Pakistan. '+p.description+' '+p.applications+' Contact NM Fire Pakistan for model-specific datasheets and specifications.').slice(0,300);
 const metaDescription=document.querySelector('meta[name="description"]');
 if(metaDescription)metaDescription.setAttribute('content',pageDescription);
-const canonicalUrl=new URL('product-detail.html',location.origin);
+const canonicalUrl=new URL('/product-detail',location.origin);
 canonicalUrl.searchParams.set('product',key);
 let canonical=document.querySelector('link[rel="canonical"]');
 if(canonical)canonical.href=canonicalUrl.href;
