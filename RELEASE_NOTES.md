@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.156
+- **Serial No.:** RN-75101208
+- **Commit No.:** [`b75e784389308542d0310ce9f670035ae2a55375`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b75e784389308542d0310ce9f670035ae2a55375)
+- **Date:** 2026-11-12
+- **Change:** SEO: set clean product detail canonical URL 
+
 ### v1.0.155
 - **Serial No.:** RN-71944225
 - **Commit No.:** [`189cb4c641abab173c7793934969a44920581609`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/189cb4c641abab173c7793934969a44920581609)
