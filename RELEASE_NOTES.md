@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.159
+- **Serial No.:** RN-12548639
+- **Commit No.:** Unknown
+- **Date:** 2026-11-12
+- **Change:** Added And Fixed NmFire Repository Wiki
+
 ### v1.0.158
 - **Serial No.:** RN-16161704
 - **Commit No.:** [`dfdfb0e103f132cd2f942848a63f94ed7282c6a8`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/dfdfb0e103f132cd2f942848a63f94ed7282c6a8)
