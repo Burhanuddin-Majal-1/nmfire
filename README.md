@@ -2,9 +2,9 @@
 
 A responsive, static reference-style website rebuild for **CNP NM Fire-fighting System Co., Ltd.** The project includes product information, company pages, technical resources, a contact form, and an on-site website issue-reporting form.
 
-- **Preview website:** https://burhanuddin-majal.github.io/nm-fire-pumps-rebuild/
+- **Preview website:** https://nmfire.pages.dev/
 - **Official NM Fire website:** https://www.nmfirepumps.com/
-- **Repository:** https://github.com/burhanuddin-majal/nm-fire-pumps-rebuild
+- **Repository:** https://github.com/burhanuddin-majal-1/nmfire
 - **Official Website Publish:** https://nmfirepumpspakistan.com
 - [![Deploy website to GitHub Pages](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml/badge.svg?event=deployment)](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml)
 ## Preview Website Notice
