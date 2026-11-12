@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.158
+- **Serial No.:** RN-16161704
+- **Commit No.:** [`dfdfb0e103f132cd2f942848a63f94ed7282c6a8`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/dfdfb0e103f132cd2f942848a63f94ed7282c6a8)
+- **Date:** 2026-11-12
+- **Change:** Refresh homepage logo and stylesheet cache 
+
 ### v1.0.157
 - **Serial No.:** RN-74550834
 - **Commit No.:** [`f52c2ea212114f6cfc24ad7daf19684826b3283d`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/f52c2ea212114f6cfc24ad7daf19684826b3283d)
