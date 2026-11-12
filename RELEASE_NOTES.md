@@ -10,6 +10,126 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.154
+- **Serial No.:** RN-65021753
+- **Commit No.:** [`beeecf6ef1daf55de19ac18e0d6c5dfea8a0ec6b`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/beeecf6ef1daf55de19ac18e0d6c5dfea8a0ec6b)
+- **Date:** 2026-11-12
+- **Change:** SEO: align products.html canonical with clean URL 
+
+### v1.0.155
+- **Serial No.:** RN-45873534
+- **Commit No.:** [`4365335df24fa03572a87e9db0c1d377f0901a99`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/4365335df24fa03572a87e9db0c1d377f0901a99)
+- **Date:** 2026-11-12
+- **Change:** SEO: align about.html canonical with clean URL 
+
+### v1.0.156
+- **Serial No.:** RN-79819977
+- **Commit No.:** [`8d3d64f998daa1da5717b8ccc453c97b2b73ed6c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/8d3d64f998daa1da5717b8ccc453c97b2b73ed6c)
+- **Date:** 2026-11-12
+- **Change:** SEO: align strength.html canonical with clean URL 
+
+### v1.0.157
+- **Serial No.:** RN-52425858
+- **Commit No.:** [`ae4302a8bf3b36a48d42d9d549ef7a31fbc06754`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/ae4302a8bf3b36a48d42d9d549ef7a31fbc06754)
+- **Date:** 2026-11-12
+- **Change:** SEO: align projects.html canonical with clean URL 
+
+### v1.0.158
+- **Serial No.:** RN-61990620
+- **Commit No.:** [`9c4ad850fe5602fcfc580770612d9ad5974f4699`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/9c4ad850fe5602fcfc580770612d9ad5974f4699)
+- **Date:** 2026-11-12
+- **Change:** SEO: align resources.html canonical with clean URL 
+
+### v1.0.159
+- **Serial No.:** RN-94305732
+- **Commit No.:** [`2e9da9aa04e12537b9842d28ed338e05e392cc98`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/2e9da9aa04e12537b9842d28ed338e05e392cc98)
+- **Date:** 2026-11-12
+- **Change:** SEO: align certificates.html canonical with clean URL 
+
+### v1.0.160
+- **Serial No.:** RN-87747087
+- **Commit No.:** [`14225500371cfba103bf0a9d687004e671db1b17`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/14225500371cfba103bf0a9d687004e671db1b17)
+- **Date:** 2026-11-12
+- **Change:** SEO: align news.html canonical with clean URL 
+
+### v1.0.161
+- **Serial No.:** RN-01128603
+- **Commit No.:** [`ff50cc5ec1d8ba63683114582b6f52ce461cafc4`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/ff50cc5ec1d8ba63683114582b6f52ce461cafc4)
+- **Date:** 2026-11-12
+- **Change:** SEO: align video.html canonical with clean URL 
+
+### v1.0.162
+- **Serial No.:** RN-22901232
+- **Commit No.:** [`9dcc65f55a7ebf85d37d3cb282353187ab6fea27`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/9dcc65f55a7ebf85d37d3cb282353187ab6fea27)
+- **Date:** 2026-11-12
+- **Change:** SEO: align training.html canonical with clean URL 
+
+### v1.0.163
+- **Serial No.:** RN-09913599
+- **Commit No.:** [`6a80bfc77a0ca796ff1a1aad08a89865d18e5c91`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/6a80bfc77a0ca796ff1a1aad08a89865d18e5c91)
+- **Date:** 2026-11-12
+- **Change:** SEO: align contact.html canonical with clean URL 
+
+### v1.0.164
+- **Serial No.:** RN-17457695
+- **Commit No.:** [`0aa3e3a21fee2f1f39b89ff0759f089ffa3eb932`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/0aa3e3a21fee2f1f39b89ff0759f089ffa3eb932)
+- **Date:** 2026-11-12
+- **Change:** SEO: align certificates.html canonical with clean URL 
+
+### v1.0.165
+- **Serial No.:** RN-33048220
+- **Commit No.:** [`d761e33be285b258995662d8e75ca5e0868b0587`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/d761e33be285b258995662d8e75ca5e0868b0587)
+- **Date:** 2026-11-12
+- **Change:** SEO: align news.html canonical with clean URL 
+
+### v1.0.166
+- **Serial No.:** RN-45751570
+- **Commit No.:** [`689236181effefa98e70582ef11bae42e42dc0f9`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/689236181effefa98e70582ef11bae42e42dc0f9)
+- **Date:** 2026-11-12
+- **Change:** SEO: align video.html canonical with clean URL 
+
+### v1.0.167
+- **Serial No.:** RN-18549790
+- **Commit No.:** [`bed241c784e93c0db273049dc10343e4ec25d220`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/bed241c784e93c0db273049dc10343e4ec25d220)
+- **Date:** 2026-11-12
+- **Change:** SEO: align training.html canonical with clean URL 
+
+### v1.0.168
+- **Serial No.:** RN-11108700
+- **Commit No.:** [`6ccae4a7378fb2f69b41680397a4a4f62c7ab988`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/6ccae4a7378fb2f69b41680397a4a4f62c7ab988)
+- **Date:** 2026-11-12
+- **Change:** SEO: align contact.html canonical with clean URL 
+
+### v1.0.169
+- **Serial No.:** RN-60751111
+- **Commit No.:** [`fd674f1de1128128c821becb226645454e11dabd`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/fd674f1de1128128c821becb226645454e11dabd)
+- **Date:** 2026-11-12
+- **Change:** SEO: align fire-protection-consulting.html canonical with clean URL 
+
+### v1.0.170
+- **Serial No.:** RN-30123636
+- **Commit No.:** [`8f24eb58af4d1022f7cb7d8a148ded3a251a715e`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/8f24eb58af4d1022f7cb7d8a148ded3a251a715e)
+- **Date:** 2026-11-12
+- **Change:** SEO: align product-alert.html canonical with clean URL 
+
+### v1.0.171
+- **Serial No.:** RN-13452321
+- **Commit No.:** [`a51c87ac226e7c691b3a5d2923f6995739c328a6`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/a51c87ac226e7c691b3a5d2923f6995739c328a6)
+- **Date:** 2026-11-12
+- **Change:** SEO: list canonical clean URLs in sitemap 
+
+### v1.0.172
+- **Serial No.:** RN-76899199
+- **Commit No.:** [`55f7579dc6ef7c6321ac33e4f2869d1cfa20b0f4`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/55f7579dc6ef7c6321ac33e4f2869d1cfa20b0f4)
+- **Date:** 2026-11-12
+- **Change:** SEO: use clean canonical URL for each product detail 
+
+### v1.0.173
+- **Serial No.:** RN-68851423
+- **Commit No.:** [`8cf875a03c6099f2dc2cba561fbd777bad163081`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/8cf875a03c6099f2dc2cba561fbd777bad163081)
+- **Date:** 2026-11-12
+- **Change:** Merge pull request #1 from Burhanuddin-Majal-1/seo/canonical-url-sitemap-fix 
+
 ### v1.0.153
 - **Serial No.:** RN-93090292
 - **Commit No.:** [`c6e4d32132d12a5563cf68c87391e85f56efcb78`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c6e4d32132d12a5563cf68c87391e85f56efcb78)
