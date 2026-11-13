@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.173
+- **Serial No.:** RN-63451417
+- **Commit No.:** [`0b440b9df571a79a64765f6cb8022fcb6a2a8b78`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/0b440b9df571a79a64765f6cb8022fcb6a2a8b78)
+- **Date:** 2026-11-13
+- **Change:** Polish official Pakistan hub wording 
+
 ### v1.0.172
 - **Serial No.:** RN-43736635
 - **Commit No.:** [`87e08e9f41fb1bcb0c1af76d6c7c54296352dfc6`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/87e08e9f41fb1bcb0c1af76d6c7c54296352dfc6)
