@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.165
+- **Serial No.:** RN-75931705
+- **Commit No.:** [`9500e52cf8ac9d2278d2ffbc80549b1785cf2682`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/9500e52cf8ac9d2278d2ffbc80549b1785cf2682)
+- **Date:** 2026-11-13
+- **Change:** Fix favicon cache busting on homepage 
+
 ### v1.0.164
 - **Serial No.:** RN-76880373
 - **Commit No.:** [`ff1fc80f06555f8f8d3b34bbf27d6d4b6b318036`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/ff1fc80f06555f8f8d3b34bbf27d6d4b6b318036)
