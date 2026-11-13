@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nmfirepumpspakistan.com/</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/products</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=split-case</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=end-suction</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=inline</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=vertical</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=jockey</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=drivers</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=containerised</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=enclosed</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=controller</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=accessories</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=fuel</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=gear</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/product-detail?product=emergency-water</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/about</loc></url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/products</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=split-case</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=end-suction</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=inline</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=vertical</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=jockey</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=drivers</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=containerised</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=enclosed</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=controller</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=accessories</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=fuel</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=gear</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/product-detail?product=emergency-water</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/about</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
   <url><loc>https://nmfirepumpspakistan.com/strength</loc></url>
   <url><loc>https://nmfirepumpspakistan.com/projects</loc></url>
   <url><loc>https://nmfirepumpspakistan.com/resources</loc></url>
@@ -23,7 +71,10 @@
   <url><loc>https://nmfirepumpspakistan.com/news</loc></url>
   <url><loc>https://nmfirepumpspakistan.com/video</loc></url>
   <url><loc>https://nmfirepumpspakistan.com/training</loc></url>
-  <url><loc>https://nmfirepumpspakistan.com/contact</loc></url>
+  <url>
+    <loc>https://nmfirepumpspakistan.com/contact</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
   <url><loc>https://nmfirepumpspakistan.com/fire-protection-consulting</loc></url>
   <url><loc>https://nmfirepumpspakistan.com/product-alert</loc></url>
 </urlset>
