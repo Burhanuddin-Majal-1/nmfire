@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.166
+- **Serial No.:** RN-86362828
+- **Commit No.:** [`b2d6ce8de7b59eb0f6337bc8a45b06375636ad26`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b2d6ce8de7b59eb0f6337bc8a45b06375636ad26)
+- **Date:** 2026-11-13
+- **Change:** Normalize public page URLs for SEO 
+
 ### v1.0.165
 - **Serial No.:** RN-75931705
 - **Commit No.:** [`9500e52cf8ac9d2278d2ffbc80549b1785cf2682`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/9500e52cf8ac9d2278d2ffbc80549b1785cf2682)
