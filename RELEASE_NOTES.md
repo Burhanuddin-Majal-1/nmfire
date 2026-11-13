@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.169
+- **Serial No.:** RN-54051337
+- **Commit No.:** [`611fb8076848aee9a5876711d128ec984904f6b7`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/611fb8076848aee9a5876711d128ec984904f6b7)
+- **Date:** 2026-11-13
+- **Change:** Improve Pakistan fire pump enquiry search snippet 
+
 ### v1.0.168
 - **Serial No.:** RN-40676585
 - **Commit No.:** [`2f1535be5f7e8472b407d416caa4d725f9e6f123`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/2f1535be5f7e8472b407d416caa4d725f9e6f123)
