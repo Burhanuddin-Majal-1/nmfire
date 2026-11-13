@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.168
+- **Serial No.:** RN-40676585
+- **Commit No.:** [`2f1535be5f7e8472b407d416caa4d725f9e6f123`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/2f1535be5f7e8472b407d416caa4d725f9e6f123)
+- **Date:** 2026-11-13
+- **Change:** Improve dynamic product page SEO metadata and breadcrumbs 
+
 ### v1.0.167
 - **Serial No.:** RN-33639229
 - **Commit No.:** [`0dac5b38b7e05a015b94ac3535c407542fe5107c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/0dac5b38b7e05a015b94ac3535c407542fe5107c)
