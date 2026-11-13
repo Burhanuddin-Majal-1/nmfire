@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.172
+- **Serial No.:** RN-43736635
+- **Commit No.:** [`87e08e9f41fb1bcb0c1af76d6c7c54296352dfc6`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/87e08e9f41fb1bcb0c1af76d6c7c54296352dfc6)
+- **Date:** 2026-11-13
+- **Change:** Clarify official NM Fire Pakistan hub identity and content 
+
 ### v1.0.171
 - **Serial No.:** RN-82677911
 - **Commit No.:** [`7ae11b31b2b156feaee0999a8e7e4a5f5d11a965`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/7ae11b31b2b156feaee0999a8e7e4a5f5d11a965)
