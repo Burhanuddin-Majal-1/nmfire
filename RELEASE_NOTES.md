@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.171
+- **Serial No.:** RN-82677911
+- **Commit No.:** [`7ae11b31b2b156feaee0999a8e7e4a5f5d11a965`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/7ae11b31b2b156feaee0999a8e7e4a5f5d11a965)
+- **Date:** 2026-11-13
+- **Change:** Use stable root favicon URL for Google Search 
+
 ### v1.0.170
 - **Serial No.:** RN-30747024
 - **Commit No.:** [`68e8841355818b53d8a50e5a125b6f2dceb167c7`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/68e8841355818b53d8a50e5a125b6f2dceb167c7)
