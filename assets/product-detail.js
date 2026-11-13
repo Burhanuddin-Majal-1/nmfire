@@ -7,11 +7,31 @@ const canonicalUrl=new URL('/product-detail',location.origin);
 canonicalUrl.searchParams.set('product',key);
 let canonical=document.querySelector('link[rel="canonical"]');
 if(canonical)canonical.href=canonicalUrl.href;
-const setMeta=(selector,attribute,value)=>{
- let element=document.querySelector(selector);
- if(element)element.setAttribute(attribute,value);
+const setMeta=(kind,key,value)=>{
+ let element=document.querySelector('meta['+kind+'="'+key+'"]');
+ if(!element){element=document.createElement('meta');element.setAttribute(kind,key);document.head.appendChild(element)}
+ element.setAttribute('content',value);
 };
-setMeta('meta[property="og:title"]','content',document.title);
-setMeta('meta[property="og:description"]','content',pageDescription);
-setMeta('meta[property="og:url"]','content',canonicalUrl.href);
-setMeta('meta[property="og:image"]','content',p.image);set('detail-title',p.title);set('detail-intro','Explore '+p.title.toLowerCase()+' for fire protection systems in Pakistan. Review manufacturer-published specifications, performance information and typical applications; confirm the exact model and approvals before selection.');set('detail-standards',p.standards);set('detail-performance',p.performance);set('detail-description',p.description);set('detail-applications',p.applications);const img=document.getElementById('detail-image');if(img){img.src=p.image;img.alt=p.title}const email=document.getElementById('detail-email');if(email)email.href='mailto:pakistan@nmfirepump.com?subject='+encodeURIComponent('Product enquiry: '+p.title)+'&body='+encodeURIComponent('Hello NM Fire Pakistan team,\n\nI would like information about: '+p.title+'.\n\nPlease share the current datasheet, available models, applicable standards/approvals, performance range, price and lead time.\n\nProject requirements:\n');const source=document.getElementById('detail-source');if(source)source.href=p.source});
+setMeta('property','og:title',document.title);
+setMeta('property','og:description',pageDescription);
+setMeta('property','og:url',canonicalUrl.href);
+setMeta('property','og:image',p.image);
+setMeta('name','twitter:card','summary_large_image');
+setMeta('name','twitter:title',document.title);
+setMeta('name','twitter:description',pageDescription);
+setMeta('name','twitter:image',p.image);
+let pageSchema=document.getElementById('nm-product-page-schema');
+if(!pageSchema){pageSchema=document.createElement('script');pageSchema.type='application/ld+json';pageSchema.id='nm-product-page-schema';document.head.appendChild(pageSchema)}
+pageSchema.textContent=JSON.stringify({
+ "@context":"https://schema.org",
+ "@type":"WebPage",
+ "name":document.title,
+ "description":pageDescription,
+ "url":canonicalUrl.href,
+ "primaryImageOfPage":{"@type":"ImageObject","url":p.image},
+ "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":location.origin+"/"},
+  {"@type":"ListItem","position":2,"name":"Products","item":location.origin+"/products"},
+  {"@type":"ListItem","position":3,"name":p.title,"item":canonicalUrl.href}
+ ]}
+});set('detail-title',p.title);set('detail-intro','Explore '+p.title.toLowerCase()+' for fire protection systems in Pakistan. Review manufacturer-published specifications, performance information and typical applications; confirm the exact model and approvals before selection.');set('detail-standards',p.standards);set('detail-performance',p.performance);set('detail-description',p.description);set('detail-applications',p.applications);const img=document.getElementById('detail-image');if(img){img.src=p.image;img.alt=p.title}const email=document.getElementById('detail-email');if(email)email.href='mailto:pakistan@nmfirepump.com?subject='+encodeURIComponent('Product enquiry: '+p.title)+'&body='+encodeURIComponent('Hello NM Fire Pakistan team,\n\nI would like information about: '+p.title+'.\n\nPlease share the current datasheet, available models, applicable standards/approvals, performance range, price and lead time.\n\nProject requirements:\n');const source=document.getElementById('detail-source');if(source)source.href=p.source});
