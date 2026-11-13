@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.167
+- **Serial No.:** RN-33639229
+- **Commit No.:** [`0dac5b38b7e05a015b94ac3535c407542fe5107c`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/0dac5b38b7e05a015b94ac3535c407542fe5107c)
+- **Date:** 2026-11-13
+- **Change:** Improve Pakistan fire pump product SEO content and metadata 
+
 ### v1.0.166
 - **Serial No.:** RN-86362828
 - **Commit No.:** [`b2d6ce8de7b59eb0f6337bc8a45b06375636ad26`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b2d6ce8de7b59eb0f6337bc8a45b06375636ad26)
