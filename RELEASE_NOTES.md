@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.170
+- **Serial No.:** RN-30747024
+- **Commit No.:** [`68e8841355818b53d8a50e5a125b6f2dceb167c7`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/68e8841355818b53d8a50e5a125b6f2dceb167c7)
+- **Date:** 2026-11-13
+- **Change:** Improve sitemap freshness signals for Google 
+
 ### v1.0.169
 - **Serial No.:** RN-54051337
 - **Commit No.:** [`611fb8076848aee9a5876711d128ec984904f6b7`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/611fb8076848aee9a5876711d128ec984904f6b7)
