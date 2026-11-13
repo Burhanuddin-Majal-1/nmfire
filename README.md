@@ -6,6 +6,7 @@ A responsive, static reference-style website rebuild for **CNP NM Fire-fighting 
 - **Official NM Fire website:** https://www.nmfirepumps.com/
 - **Repository:** https://github.com/burhanuddin-majal-1/nmfire
 - **Official Website Publish:** https://nmfirepumpspakistan.com
+- **Official wiki page:** [Click Here](https://github.com/burhanuddin-majal-1/nmfire/wiki)
 - [![Deploy website to GitHub Pages](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml/badge.svg?event=deployment)](https://github.com/burhanuddin-majal-1/nmfire/actions/workflows/pages-deploy.yml)
 ## Preview Website Notice
 
