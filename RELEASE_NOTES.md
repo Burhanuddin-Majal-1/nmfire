@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.178
+- **Serial No.:** RN-20264888
+- **Commit No.:** [`dc6cf2ecaffeeb26b2ae389199f19e9d6c9d3f97`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/dc6cf2ecaffeeb26b2ae389199f19e9d6c9d3f97)
+- **Date:** 2026-11-14
+- **Change:** Remove unapproved alternate favicon; retain original NM Fire icon 
+
 ### v1.0.177
 - **Serial No.:** RN-95764517
 - **Commit No.:** [`f0a7993d5a39773c2998d54445ec989ac0d637a2`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/f0a7993d5a39773c2998d54445ec989ac0d637a2)
