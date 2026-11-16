@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.180
+- **Serial No.:** RN-90813567
+- **Commit No.:** [`41f9d9cd287b5bda754df9dd44cff1f87afb25b5`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/41f9d9cd287b5bda754df9dd44cff1f87afb25b5)
+- **Date:** 2026-11-16
+- **Change:** Improve product authenticity page heading and search snippet content 
+
 ### v1.0.179
 - **Serial No.:** RN-56355191
 - **Commit No.:** [`28b2430a0402ed177d6afe46eec819acc6b6aa23`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/28b2430a0402ed177d6afe46eec819acc6b6aa23)
