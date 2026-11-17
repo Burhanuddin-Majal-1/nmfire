@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.185
+- **Serial No.:** RN-22832760
+- **Commit No.:** [`213908a6656ad026ef1c104bfe6324d822a77a03`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/213908a6656ad026ef1c104bfe6324d822a77a03)
+- **Date:** 2026-11-17
+- **Change:** Fix mobile NM Fire AI launcher overlap 
+
 ### v1.0.184
 - **Serial No.:** RN-45409920
 - **Commit No.:** [`94e0cb2693b53416bec72bf3e8b818e9e78470f1`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/94e0cb2693b53416bec72bf3e8b818e9e78470f1)
