@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.187
+- **Serial No.:** RN-38695725
+- **Commit No.:** [`c7fb0f064b131238b99200367b8eb6b465599cc3`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c7fb0f064b131238b99200367b8eb6b465599cc3)
+- **Date:** 2026-11-17
+- **Change:** Show hamburger icon without Menu label 
+
 ### v1.0.186
 - **Serial No.:** RN-23643467
 - **Commit No.:** [`b932aa5b1a017573bc935fd59edc796175149b01`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b932aa5b1a017573bc935fd59edc796175149b01)
