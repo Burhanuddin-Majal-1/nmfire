@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.186
+- **Serial No.:** RN-23643467
+- **Commit No.:** [`b932aa5b1a017573bc935fd59edc796175149b01`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/b932aa5b1a017573bc935fd59edc796175149b01)
+- **Date:** 2026-11-17
+- **Change:** Polish mobile hamburger icon styling 
+
 ### v1.0.185
 - **Serial No.:** RN-22832760
 - **Commit No.:** [`213908a6656ad026ef1c104bfe6324d822a77a03`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/213908a6656ad026ef1c104bfe6324d822a77a03)
