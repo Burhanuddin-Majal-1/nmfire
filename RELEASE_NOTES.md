@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.188
+- **Serial No.:** RN-01165765
+- **Commit No.:** [`03c99ed4f4e1bad0daefac3b6f84d04cc0cbcd59`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/03c99ed4f4e1bad0daefac3b6f84d04cc0cbcd59)
+- **Date:** 2026-11-18
+- **Change:** Include Cloudflare redirects in Jekyll build 
+
 ### v1.0.187
 - **Serial No.:** RN-38695725
 - **Commit No.:** [`c7fb0f064b131238b99200367b8eb6b465599cc3`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/c7fb0f064b131238b99200367b8eb6b465599cc3)
