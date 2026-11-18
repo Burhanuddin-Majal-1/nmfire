@@ -6,3 +6,7 @@ lang: en-PK
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+include:
+  - .htaccess
+  - _redirects
