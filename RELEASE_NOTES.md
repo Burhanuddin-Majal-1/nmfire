@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.189
+- **Serial No.:** RN-19813644
+- **Commit No.:** [`ae18a5e59b9b0c32da3beb8648b09565a9f1cd16`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/ae18a5e59b9b0c32da3beb8648b09565a9f1cd16)
+- **Date:** 2026-11-20
+- **Change:** Refresh products page favicon cache reference 
+
 ### v1.0.188
 - **Serial No.:** RN-01165765
 - **Commit No.:** [`03c99ed4f4e1bad0daefac3b6f84d04cc0cbcd59`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/03c99ed4f4e1bad0daefac3b6f84d04cc0cbcd59)
