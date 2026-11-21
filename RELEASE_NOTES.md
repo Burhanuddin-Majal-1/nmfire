@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.190
+- **Serial No.:** RN-30909153
+- **Commit No.:** [`caaa54e0e09b300989d01d1388a3e11c976a79ac`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/caaa54e0e09b300989d01d1388a3e11c976a79ac)
+- **Date:** 2026-11-21
+- **Change:** Align favicon cache version across site pages 
+
 ### v1.0.189
 - **Serial No.:** RN-19813644
 - **Commit No.:** [`ae18a5e59b9b0c32da3beb8648b09565a9f1cd16`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/ae18a5e59b9b0c32da3beb8648b09565a9f1cd16)
