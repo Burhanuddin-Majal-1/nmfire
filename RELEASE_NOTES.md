@@ -10,6 +10,12 @@ This file is maintained automatically by GitHub Actions for commits pushed to `m
 
 ## Release History
 
+### v1.0.191
+- **Serial No.:** RN-55819975
+- **Commit No.:** [`9632cb38e3b3b62a17589634c7c654fd84d9b0ac`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/9632cb38e3b3b62a17589634c7c654fd84d9b0ac)
+- **Date:** 2026-11-22
+- **Change:** Align resources page favicon cache version 
+
 ### v1.0.190
 - **Serial No.:** RN-30909153
 - **Commit No.:** [`caaa54e0e09b300989d01d1388a3e11c976a79ac`](https://github.com/Burhanuddin-Majal-1/nmfire/commit/caaa54e0e09b300989d01d1388a3e11c976a79ac)
